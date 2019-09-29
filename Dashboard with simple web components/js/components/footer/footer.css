@@ -1,0 +1,8 @@
+.footer-component {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-sizing: border-box;
+   height: 100%;
+   padding: 0 16px;
+ }

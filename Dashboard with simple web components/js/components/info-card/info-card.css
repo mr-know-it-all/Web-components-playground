@@ -1,0 +1,16 @@
+.info-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.info-card .icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: red;
+}

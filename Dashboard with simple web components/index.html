@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WebComponents 0.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <header-component title="Hello" description="world" class="header"></header-component>
+      <sidenav-component links="site1-::::--site2-//:--site3-//:" class="sidenav"></sidenav-component>
+      <main class="main">
+        <article class="main-content">
+          <headline-component title="Hello" description="world"></headline-component>
+          <section class="info-card-list"></section>
+        </article>
+      </main>
+      <aside class="aside"></aside>
+      <footer-component class="footer" message="Hello!" copyright="2050"></footer-component>
+    </div>
+
+    <script type="text/javascript" src="./js/components/header/header.js"></script>
+    <script type="text/javascript" src="./js/components/sidenav/sidenav.js"></script>
+    <script type="text/javascript" src="./js/components/headline/headline.js"></script>
+    <script type="text/javascript" src="./js/components/info-card/info-card.js"></script>
+    <script type="text/javascript" src="./js/components/footer/footer.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
