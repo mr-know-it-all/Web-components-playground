@@ -5,12 +5,13 @@
   box-sizing: border-box;
   height: 100%;
   padding: 20px;
-  background-color: lightblue;
+  color: #25274d;
+  background-color: #aaabb8;
 }
 
 .info-card .icon {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #25274d;
 }

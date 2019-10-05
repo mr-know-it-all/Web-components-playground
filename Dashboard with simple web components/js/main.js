@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   for(let i = 0; i < 10; i++) {
     const list = document.querySelector('.info-card-list');
     const infoCard = document.createElement('info-card-component');
