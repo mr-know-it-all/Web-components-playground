@@ -1,4 +1,4 @@
-class HeaderComponent extends HTMLElement {
+export default class Header extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({mode: 'open'});
@@ -28,5 +28,3 @@ class HeaderComponent extends HTMLElement {
     wrapper.appendChild(description);
   }
 }
-
-customElements.define('header-component', HeaderComponent);

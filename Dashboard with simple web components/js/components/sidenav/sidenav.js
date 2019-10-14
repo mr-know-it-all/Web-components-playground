@@ -1,4 +1,4 @@
-class SidenavComponent extends HTMLElement {
+export default class Sidenav extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({mode: 'open'});
@@ -32,5 +32,3 @@ class SidenavComponent extends HTMLElement {
     wrapper.appendChild(list);
   }
 }
-
-customElements.define('sidenav-component', SidenavComponent);

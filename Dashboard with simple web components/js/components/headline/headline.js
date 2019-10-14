@@ -1,4 +1,4 @@
-class HeadlineComponent extends HTMLElement {
+export default class Headline extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({mode: 'open'});
@@ -28,5 +28,3 @@ class HeadlineComponent extends HTMLElement {
     wrapper.appendChild(description);
   }
 }
-
-customElements.define('headline-component', HeadlineComponent);

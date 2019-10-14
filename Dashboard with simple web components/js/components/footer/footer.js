@@ -1,4 +1,4 @@
-class FooterComponent extends HTMLElement {
+export default class Footer extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({mode: 'open'});
@@ -28,5 +28,3 @@ class FooterComponent extends HTMLElement {
     wrapper.appendChild(copyright);
   }
 }
-
-customElements.define('footer-component', FooterComponent);

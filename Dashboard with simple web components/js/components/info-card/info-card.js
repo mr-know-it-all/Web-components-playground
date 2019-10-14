@@ -1,4 +1,4 @@
-class InfoCardComponent extends HTMLElement {
+export default class InfoCard extends HTMLElement {
   constructor() {
     super();
     const shadow = this.attachShadow({mode: 'open'});
@@ -45,5 +45,3 @@ class InfoCardComponent extends HTMLElement {
     this.shadowRoot.querySelector('.description').textContent = descriptionText;
   }
 }
-
-customElements.define('info-card-component', InfoCardComponent);
